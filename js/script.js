@@ -18,32 +18,77 @@ $(document).ready(function() {
 /*=====================================Открытие нового калькулятора==============================*/
 $(document).ready(function() {
     $('.left__block_item_1').click(function(event) {
-        $('.center__block_2, .center__block_3, .center__block_4, .center__block_5, .left__block_item_2, .left__block_item_3, .left__block_item_4, .left__block_item_5').removeClass('active');
+        $('.center__block_2, .center__block_3, .center__block_4, .center__block_5, .center__block_6, .center__block_7, .left__block_item_2, .left__block_item_3, .left__block_item_4, .left__block_item_5, .left__block_item_6, .left__block_item_7').removeClass('active');
         $('.left__block_item_1, .center__block_1').toggleClass('active');
     });
 });
 $(document).ready(function() {
     $('.left__block_item_2').click(function(event) {
-        $('.center__block_1, .center__block_3, .center__block_4, .center__block_5, .left__block_item_1, .left__block_item_3, .left__block_item_4, .left__block_item_5').removeClass('active');
+        $('.center__block_1, .center__block_3, .center__block_4, .center__block_5, .center__block_6, .center__block_7, .left__block_item_1, .left__block_item_3, .left__block_item_4, .left__block_item_5, .left__block_item_6, .left__block_item_7').removeClass('active');
         $('.left__block_item_2, .center__block_2').toggleClass('active');
     });
 });
 $(document).ready(function() {
     $('.left__block_item_3').click(function(event) {
-        $('.center__block_1, .center__block_2, .center__block_4, .center__block_5, .left__block_item_1, .left__block_item_2, .left__block_item_4, .left__block_item_5').removeClass('active');
+        $('.center__block_1, .center__block_2, .center__block_4, .center__block_5, .center__block_6, .center__block_7, .left__block_item_1, .left__block_item_2, .left__block_item_4, .left__block_item_5, .left__block_item_6, .left__block_item_7').removeClass('active');
         $('.left__block_item_3, .center__block_3').toggleClass('active');
     });
 });
 $(document).ready(function() {
     $('.left__block_item_4').click(function(event) {
-        $('.center__block_1, .center__block_2, .center__block_3, .center__block_5, .left__block_item_1, .left__block_item_2, .left__block_item_3, .left__block_item_5').removeClass('active');
+        $('.center__block_1, .center__block_2, .center__block_3, .center__block_5, .center__block_6, .center__block_7, .left__block_item_1, .left__block_item_2, .left__block_item_3, .left__block_item_5, .left__block_item_6, .left__block_item_7').removeClass('active');
         $('.left__block_item_4, .center__block_4').toggleClass('active');
     });
 });
 $(document).ready(function() {
     $('.left__block_item_5').click(function(event) {
-        $('.center__block_1, .center__block_2, .center__block_3, .center__block_4, .left__block_item_1, .left__block_item_2, .left__block_item_3, .left__block_item_4').removeClass('active');
+        $('.center__block_1, .center__block_2, .center__block_3, .center__block_4, .center__block_6, .center__block_7, .left__block_item_1, .left__block_item_2, .left__block_item_3, .left__block_item_4, .left__block_item_6, .left__block_item_7').removeClass('active');
         $('.left__block_item_5, .center__block_5').toggleClass('active');
     });
 });
+$(document).ready(function() {
+    $('.left__block_item_6').click(function(event) {
+        $('.center__block_1, .center__block_2, .center__block_3, .center__block_4, .center__block_5, .center__block_7, .left__block_item_1, .left__block_item_2, .left__block_item_3, .left__block_item_4, .left__block_item_5, .left__block_item_7').removeClass('active');
+        $('.left__block_item_6, .center__block_6').toggleClass('active');
+    });
+});
+$(document).ready(function() {
+    $('.left__block_item_7').click(function(event) {
+        $('.center__block_1, .center__block_2, .center__block_3, .center__block_4, .center__block_5, .center__block_6, .left__block_item_1, .left__block_item_2, .left__block_item_3, .left__block_item_4, .left__block_item_5, .left__block_item_6').removeClass('active');
+        $('.left__block_item_7, .center__block_7').toggleClass('active');
+    });
+});
 
+
+
+
+$(document).ready(function() {
+    $('.center__block_top_item_1').click(function(event) {
+        $('.center__block_body_2, .center__block_body_3, .center__block_body_4, .center__block_body_5, .center__block_top_item_2, .center__block_top_item_3, .center__block_top_item_4, .center__block_top_item_5').removeClass('active');
+        $('.center__block_top_item_1, .center__block_body_1').toggleClass('active');
+    });
+});
+$(document).ready(function() {
+    $('.center__block_top_item_2').click(function(event) {
+        $('.center__block_body_1, .center__block_body_3, .center__block_body_4, .center__block_body_5, .center__block_top_item_1, .center__block_top_item_3, .center__block_top_item_4, .center__block_top_item_5').removeClass('active');
+        $('.center__block_top_item_2, .center__block_body_2').toggleClass('active');
+    });
+});
+$(document).ready(function() {
+    $('.center__block_top_item_3').click(function(event) {
+        $('.center__block_body_1, .center__block_body_2, .center__block_body_4, .center__block_body_5, .center__block_top_item_1, .center__block_top_item_2, .center__block_top_item_4, .center__block_top_item_5').removeClass('active');
+        $('.center__block_top_item_3, .center__block_body_3').toggleClass('active');
+    });
+});
+$(document).ready(function() {
+    $('.center__block_top_item_4').click(function(event) {
+        $('.center__block_body_1, .center__block_body_2, .center__block_body_3, .center__block_body_5, .center__block_top_item_1, .center__block_top_item_2, .center__block_top_item_3, .center__block_top_item_5').removeClass('active');
+        $('.center__block_top_item_4, .center__block_body_4').toggleClass('active');
+    });
+});
+$(document).ready(function() {
+    $('.center__block_top_item_5').click(function(event) {
+        $('.center__block_body_1, .center__block_body_2, .center__block_body_3, .center__block_body_4, .center__block_top_item_1, .center__block_top_item_2, .center__block_top_item_3, .center__block_top_item_4').removeClass('active');
+        $('.center__block_top_item_5, .center__block_body_5').toggleClass('active');
+    });
+});
